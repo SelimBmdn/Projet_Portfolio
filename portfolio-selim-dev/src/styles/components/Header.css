@@ -1,0 +1,11 @@
+.SelimDev-header {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all_SelimDev {
+    display: flex;
+}

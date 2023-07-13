@@ -1,5 +1,5 @@
 // Import des fichiers CSS et des données nécessaires
-import '../styles/NavBar.css'
+import '../styles/components/NavBar.css'
 import { Link } from 'react-router-dom'
 
 function NavBar () {
