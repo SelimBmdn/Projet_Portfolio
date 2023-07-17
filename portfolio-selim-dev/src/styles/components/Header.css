@@ -4,8 +4,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 35%;
+
+}
+
+.All_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .all_SelimDev {
     display: flex;
+}
+.All_name {
+    letter-spacing: 1em;
+    font-size: 17px;
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 5%;
+}
+.dev{
+color: turquoise;
 }

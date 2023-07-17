@@ -1,7 +1,7 @@
 // Import des fichiers CSS et des données nécessaires
 import '../styles/components/Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons' ;
+//import { faGithub } from '@fortawesome/free-brands-svg-icons' ;
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../components/NavBar';
 
@@ -34,7 +34,7 @@ function Header() {
                 </div>
 
                 <div className='github'>
-                <FontAwesomeIcon icon={faGithub} />
+                {/*<FontAwesomeIcon icon={faGithub} />*/}
                 </div>
 
                 <div className='gmail'>

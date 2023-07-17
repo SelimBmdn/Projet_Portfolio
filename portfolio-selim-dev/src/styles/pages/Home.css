@@ -1,5 +1,7 @@
 .home {
-    display: flex;
+    display: flex; 
+    flex-direction: row;
+
 }
 .all_text_home {
     display: flex;
@@ -7,8 +9,67 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    color: white;
+    /*background-color: #3498db;*/
+    font-size: 45px ;
+    z-index: 1;
+    position: relative;
+    bottom: 50%;
+    
 }
 
 .all_frontend_dev {
     display: flex;
+    align-items: center;
+    margin: 1%;
 }
+.hello {
+    font-size: 45px ;
+    margin: 1%;
+}
+.my_name_is {
+    font-size: 65px;
+    margin: 1%;
+}
+
+.background-home img {
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.frontend_dev {
+    color: turquoise;
+    font-size: 55px;
+    animation: blink 4s infinite linear;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+      
+    }
+    20%{
+        opacity: 0.5;
+    }
+    40% {
+        opacity: 0.2;
+    }
+    80% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .hire_me {
+    margin: 1%;
+  }
+  
+  .hire_me .return_contact {
+    border-radius: 25px;
+    background-color: turquoise;
+    font-size: 25px ;
+    padding: 15px 25px;
+    cursor: pointer;
+  }
+  
