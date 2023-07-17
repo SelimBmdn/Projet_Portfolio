@@ -40,7 +40,8 @@
 .frontend_dev {
     color: turquoise;
     font-size: 55px;
-    animation: blink 4s infinite linear;
+    animation: blink 4s normal linear;
+
 }
 @keyframes blink {
     0% {
@@ -51,7 +52,7 @@
         opacity: 0.5;
     }
     40% {
-        opacity: 0.2;
+        opacity: 1;
     }
     80% {
       opacity: 0.5;
@@ -67,9 +68,19 @@
   
   .hire_me .return_contact {
     border-radius: 25px;
-    background-color: turquoise;
+    background-color: #40e0d0;
     font-size: 25px ;
     padding: 15px 25px;
     cursor: pointer;
+    text-shadow: 1px 4px 4px rgba(0,0,0,0.51);
   }
+
+  .hire_me .return_contact:hover {
+    color: black;
+  }
+
   
+
+
+
+ 
