@@ -1,0 +1,49 @@
+.all_and_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../../assets/background-black-turquoise.png);
+    background-size: cover;
+}
+
+.title_and_icones h1 {
+    color: white;
+    border-left: 10px solid turquoise;
+}
+.skills_prc {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+}
+
+.lg_and_prc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prc_and_ligneHTML {
+width: 100%;
+}
+
+.prc_and_ligneCSS {
+    width: 90%;
+}
+
+.prc_and_ligneJAVASCRIPT {
+    width: 60%;
+}
+
+.prc_and_ligneREACTJS {
+    width: 60%;
+}
+
+.prc_and_ligneNODEJS {
+    width: 60%;
+}
+
+.ligne {
+    background-color: turquoise;
+    border-radius: 10px;
+}

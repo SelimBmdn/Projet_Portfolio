@@ -1,0 +1,47 @@
+.all_text_img_background {
+    width: 100%;
+    background-image: url(../../assets/background-black-turquoise.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.just_text_and_phone {
+    color: white;
+    width: 50%;
+    margin-left: 7%;
+}
+
+
+.just_text_and_phone h1 {
+    border-left: 10px solid turquoise;
+}
+.download_cv {
+    background-color: turquoise;
+    width: 30%;
+    
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.phone_and_mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.card {
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.inside_card {
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+}

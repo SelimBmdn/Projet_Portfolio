@@ -10,10 +10,11 @@ export default function Home() {
 		<div className='home'>
 			{/* Inclusion du composant Header */}
 			<Header />
-			<div className='backgroung_and_text'>
-				<div className='background-home'>
+			<div className='background_and_text'>
+			{/*<img src={Image1} alt='' />
+				{/*<div className='background-home'>
 					<img src={Image1} alt='' />
-				</div>
+	</div>*/}
 				<div className='all_text_home'>
 
 					<div className='hello'>
@@ -37,6 +38,7 @@ export default function Home() {
 						<Link className='return_contact' to='/ContactPage'>Recrutez-moi</Link>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	)
