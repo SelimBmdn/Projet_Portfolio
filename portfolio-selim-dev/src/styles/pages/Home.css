@@ -1,11 +1,35 @@
 .home {
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
+}
 
+.header_and_alltext {
+  display: flex; 
+    flex-direction: row;
+}
+/*
+
+*/
+.home .SelimDev-header {
+    animation-duration: 1s;
+    animation-name: slideup;
+    }    
+    @keyframes slideup {
+ 
+        from {
+          margin-top:200%;
+          width:100%
+        }
+      
+        to {
+          margin-top:0%;
+          width:25%;
+        }
+    
 }
 
 .background_and_text {
-    background-image: url(../../assets/background-img-home.jpg) ;
+    background-image: url(../../assets/background-img-home_2.jpg) ;
     width: 100%;
     background-size: cover;
     display: flex;

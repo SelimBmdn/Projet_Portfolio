@@ -18,6 +18,7 @@ function Header() {
   return (
     <header className={`SelimDev-header ${otherPage ? 'SelimDev-header-other-page' : ''}`}>
       {/* Affichage du logo du site*/}
+      <div className='all_item_header'>
       <h1 className='All_title'>
         <div className='all_SelimDev'>
           <div className='Selim'>Selim</div>
@@ -39,6 +40,7 @@ function Header() {
         <div className='gmail'>
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
+      </div>
       </div>
     </header>
   );

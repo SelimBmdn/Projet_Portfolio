@@ -1,6 +1,7 @@
 // Import des fichiers CSS et des données nécessaires
 import '../styles/pages/Home.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import Image1 from '../assets/background-img-home.jpg'
 
@@ -8,6 +9,7 @@ import Image1 from '../assets/background-img-home.jpg'
 export default function Home() {
 	return (
 		<div className='home'>
+			<div className='header_and_alltext'>
 			{/* Inclusion du composant Header */}
 			<Header />
 			<div className='background_and_text'>
@@ -38,8 +40,12 @@ export default function Home() {
 						<Link className='return_contact' to='/ContactPage'>Recrutez-moi</Link>
 					</div>
 				</div>
-				
+				</div>
 			</div>
+			{/* Inclusion du composant Footer */}
+            <Footer />
 		</div>
+		
+		
 	)
 }

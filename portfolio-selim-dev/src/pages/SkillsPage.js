@@ -1,7 +1,10 @@
 // Import des fichiers CSS et des données nécessaires
 import '../styles/pages/SkillsPage.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5 } from '@fortawesome/free-solid-svg-icons';
 
 export default function SkillsPage() {
     return (
@@ -13,12 +16,13 @@ export default function SkillsPage() {
                 <div className='title_and_icones'>
                     <h1>Skills</h1>
                     <div className='all_icones'>
-
+                        {/*  <FontAwesomeIcon icon={faHtml5} /> */}
                     </div>
                 </div>
 
                 <div className='skills_prc'>
 
+            
 
                     <div className='prc_and_ligneHTML'>
                         <div className='lg_and_prc'>
@@ -61,6 +65,8 @@ export default function SkillsPage() {
                 </div>
             </div>
         </div>
+        {/* Inclusion du composant Footer */}
+        <Footer />
         </div>
 
     )

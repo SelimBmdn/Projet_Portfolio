@@ -15,7 +15,7 @@
 }
 
 
-.just_text_and_phone h1 {
+.just_text_and_phone h2 {
     border-left: 10px solid turquoise;
 }
 .download_cv {
@@ -44,4 +44,28 @@
     display: flex;    
     align-items: center;
     flex-direction: column;
+}
+
+.image_page_about img {
+    width: 50%;
+}
+
+.all_text_img_background h1 {
+    animation-duration: 1s;
+    animation-name: slidein; 
+    animation-timing-function: linear;
+}
+
+    @keyframes slidein {
+ 
+        from {
+          margin-left:200%;
+          width:100%
+        }
+      
+        to {
+          margin-left:5%;
+          width:25%;
+          
+        }
 }
