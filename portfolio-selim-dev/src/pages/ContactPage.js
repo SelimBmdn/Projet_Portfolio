@@ -70,11 +70,12 @@ export default function ContactPage() {
                     </div>
 
                     <div className='contact_us'>
+                        <div className='title_and_input'>
                         <h1>Contactez-moi ici</h1>
 
                         <InputCompenent />
 
-
+                        </div>
                     </div>
                 </div>
             </div>

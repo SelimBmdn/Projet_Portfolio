@@ -30,7 +30,7 @@ const InputCompenent = () => {
             <input type="text" name="user_name" placeholder='Entrer votre Nom Prenom/Entreprise' />
             </div>
 
-            <div className='input_mail_and_number'>
+            {/*<div className='input_mail_and_number'>*/}
 
             <label>Email</label>
             <div className='input_email'>
@@ -42,7 +42,7 @@ const InputCompenent = () => {
             <input className='input_phone' type="phone" name="user_phone" placeholder='Entrer votre numéro de téléphone' />
             </div>
 
-            </div>
+           {/*</div>*/}
             
             <label>Message</label>
             <div className='input_message'>
@@ -50,7 +50,7 @@ const InputCompenent = () => {
             
             </div>
 
-            <input type="submit" value="Send" />
+            <button  type="submit"  value="Send"  />
 
         </form>
     );
