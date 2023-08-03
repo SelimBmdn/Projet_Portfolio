@@ -20,37 +20,36 @@ const InputCompenent = () => {
             });
     };
 
-
-
     return (
         <form className='all_input' ref={form} onSubmit={sendEmail}>
 
             <label>Nom</label>
             <div className='input_name'>
-            <input type="text" name="user_name" placeholder='Entrer votre Nom Prenom/Entreprise' />
+                <input type="text" name="user_name" placeholder='Entrer votre Nom Prenom/Entreprise' />
             </div>
 
             {/*<div className='input_mail_and_number'>*/}
 
             <label>Email</label>
             <div className='input_email'>
-            <input type="email" name="user_email" placeholder='Entrer votre Email' />
+                <input type="email" name="user_email" placeholder='Entrer votre Email' />
             </div>
 
             <label>Numéro de téléphone</label>
             <div className='input_number'>
-            <input className='input_phone' type="phone" name="user_phone" placeholder='Entrer votre numéro de téléphone' />
+                <input className='input_phone' type="phone" name="user_phone" placeholder='Entrer votre numéro de téléphone' />
             </div>
 
-           {/*</div>*/}
-            
+            {/*</div>*/}
+
             <label>Message</label>
             <div className='input_message'>
-            <textarea name="message" placeholder='Entrer votre message' />
-            
+
+                <textarea name="message" placeholder='Entrer votre message' />
+
             </div>
 
-            <button  type="submit"  value="Send"  />
+            <button type="submit" value="Send">Envoyer</button>
 
         </form>
     );

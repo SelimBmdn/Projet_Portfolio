@@ -3,7 +3,7 @@
     background-image: url(../../assets/background-black-turquoise.png);
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -45,18 +45,22 @@
     align-items: center;
     flex-direction: column;
 }
-
+.image_page_about {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
 .image_page_about img {
     width: 50%;
 }
 
-.all_text_img_background h1 {
+.all_text_img_background h2 {
     animation-duration: 1s;
-    animation-name: slidein; 
+    animation-name: slideupabout; 
     animation-timing-function: linear;
 }
 
-    @keyframes slidein {
+    @keyframes slideupabout {
  
         from {
           margin-left:200%;
@@ -64,7 +68,27 @@
         }
       
         to {
-          margin-left:5%;
+          
+          width:25%;
+          
+        }
+}
+
+.all_text_img_background h3 {
+    animation-duration: 1s;
+    animation-name: slideupabout; 
+    animation-timing-function: linear;
+}
+
+    @keyframes slideupabout {
+ 
+        from {
+          margin-left:200%;
+          width:100%
+        }
+      
+        to {
+          
           width:25%;
           
         }
