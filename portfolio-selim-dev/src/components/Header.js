@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/components/Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin , faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../components/NavBar';
 
@@ -31,14 +32,22 @@ function Header() {
 
       <div className='follow_me'>
         Suivez-moi :
-        <div className='linkedin_logo'></div>
+        <div className='linkedin_logo'>
+          <a href='https://fr.linkedin.com/in/sboumedien'>
+        <FontAwesomeIcon icon={faLinkedin} style={{color: "#40e0d0",}} />
+        </a>
+        </div>
 
         <div className='github'>
-          {/* <FontAwesomeIcon icon={faGithub} /> */}
+        <a href='https://github.com/SelimBmdn'>
+        <FontAwesomeIcon icon={faGithub} style={{color: "#40e0d0",}} />
+        </a>
         </div>
 
         <div className='gmail'>
+          <a href="mailto:selim.boumedien@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />
+          </a>
         </div>
       </div>
       </div>

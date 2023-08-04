@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin , faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useState, useRef, useEffect } from 'react';
 import InputCompenent from '../components/InputCompenent';
 
@@ -60,10 +61,18 @@ export default function ContactPage() {
                                     Connnectez-vous
                                 </div>
                                 <div className='all_icon_contact'>
+
+                                <a href="mailto:selim.boumedien@gmail.com">
                                     <FontAwesomeIcon icon={faEnvelope} />
-                                    <FontAwesomeIcon icon={faEnvelope} />
-                                    <FontAwesomeIcon icon={faEnvelope} />
-                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    </a>
+
+                                    <a href='https://fr.linkedin.com/in/sboumedien'>
+                                    <FontAwesomeIcon icon={faLinkedin}  />
+                                    </a>
+
+                                    <a href='https://github.com/SelimBmdn'>
+                                    <FontAwesomeIcon icon={faGithub}  />
+                                    </a>
                                 </div>
                             </div>
                         </div>

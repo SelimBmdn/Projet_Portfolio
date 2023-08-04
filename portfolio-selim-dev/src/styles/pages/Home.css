@@ -18,12 +18,12 @@
  
         from {
           margin-top:200%;
-          width:100%
+          
         }
       
         to {
           margin-top:0%;
-          width:25%;
+          
         }
     
 }
@@ -74,12 +74,13 @@
 .frontend_dev {
     color: turquoise;
     font-size: 55px;
-    animation: blink 4s normal linear;
+    animation: blink 2s normal linear;
 
 }
 @keyframes blink {
     0% {
       opacity: 1;
+      margin-left: 200%;
       
     }
     20%{
@@ -93,6 +94,7 @@
     }
     100% {
       opacity: 1;
+      margin-left: 0%;
     }
   }
 
