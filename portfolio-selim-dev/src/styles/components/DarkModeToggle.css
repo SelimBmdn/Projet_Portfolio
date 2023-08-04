@@ -1,12 +1,5 @@
-:root {
-    --background-color: #ffffff; /* Couleur du fond en mode clair */
-    --text-color: #000000; /* Couleur du texte en mode clair */
-  }
-  
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
+
+
   
   input[type="checkbox"] {
     display: none;

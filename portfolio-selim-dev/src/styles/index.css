@@ -1,3 +1,12 @@
+:root {
+  --body_background: rgb(0, 0, 0);
+  --body_color: white;
+}
+[data-theme="light"] {
+  --body_background: white;
+  --body_color:rgb(0, 0, 0);
+}
+
 *{ 
   box-sizing: border-box;
   /*font-family: 'Roboto', sans-serif;*/
@@ -6,6 +15,7 @@
   scroll-behavior: smooth;
   text-decoration: none;
   color: inherit;
+  /*transition: all 0.3s ease-in-out;*/
 }
 /*
 body {

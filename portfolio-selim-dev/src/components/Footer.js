@@ -1,5 +1,5 @@
 import '../styles/components/Footer.css';
-import LightMode from '../components/LightMode';
+import DarkModeToggle from './DarkModeToggle';
 
 
 function Footer() {
@@ -9,8 +9,8 @@ function Footer() {
         <div className='all_inside_footer'>
         <p>Copyright Selim @2023</p>
         </div>
-        <div className='lightmode_button'>
-        <LightMode />
+        <div className='DarkModeToggle_button'>
+        <DarkModeToggle />
         </div>
     </footer>
     )
