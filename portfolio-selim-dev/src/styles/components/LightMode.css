@@ -1,0 +1,65 @@
+:root {
+    --background-color: #ffffff; /* Couleur du fond en mode clair */
+    --text-color: #000000; /* Couleur du texte en mode clair */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  label {
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  label:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  input:checked + label {
+    background-color: #3d3d3d; /* Couleur du fond en mode sombre */
+  }
+  
+  input:checked + label:before {
+    transform: translateX(20px); /* Décalage pour le mode sombre */
+  }
+  
+  /* Styles supplémentaires pour le mode sombre */
+  input:checked + label:after {
+    content: '🌞'; /* Icône pour le mode sombre */
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  /* Styles supplémentaires pour le mode clair */
+  input:not(:checked) + label:after {
+    content: '🌙'; /* Icône pour le mode clair */
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
