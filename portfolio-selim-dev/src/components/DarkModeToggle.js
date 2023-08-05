@@ -7,7 +7,7 @@ function DarkModeToggle() {
 
   const handleToggle = () => {
     setDarkMode(!darkMode);
-    const pageElements = document.querySelectorAll('.page_about, .page_contact, .page_project, .page_skills, .home');
+    const pageElements = document.querySelectorAll('.page_about, .page_contact, .page_project, .page_resume , .page_skills, .home');
     pageElements.forEach((pageElement) => {
       pageElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
     });

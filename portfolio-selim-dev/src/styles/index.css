@@ -15,7 +15,7 @@
   scroll-behavior: smooth;
   text-decoration: none;
   color: inherit;
-  /*transition: all 0.3s ease-in-out;*/
+  transition: all 0.20s ease-in-out;
 }
 /*
 body {
