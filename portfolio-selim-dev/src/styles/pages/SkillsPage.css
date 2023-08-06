@@ -6,6 +6,22 @@
     background-size: cover;
 }
 
+.all_icones {
+    width: 100%;
+    font-size: 130px;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+svg {
+    margin: 2%;
+    display: flex;
+
+}
 .title_and_icones h1 {
     color: white;
     border-left: 10px solid turquoise;

@@ -9,7 +9,7 @@ export default function About() {
     return (
         <div className='page_about'>
             {/* Inclusion du composant Header */}
-            <Header />
+           <Header />
 
             <div className='all_text_img_background'>
 
@@ -49,7 +49,7 @@ export default function About() {
                 </div>
             </div>
             {/* Inclusion du composant Footer */}
-            <Footer />
+           <Footer />
         </div>
     )
 }

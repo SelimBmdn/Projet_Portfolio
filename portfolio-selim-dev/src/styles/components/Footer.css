@@ -7,3 +7,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.all_page_footer {
+    background-color: var(--body_background);
+    color: var(--body_color);
+}

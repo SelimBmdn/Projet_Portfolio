@@ -11,6 +11,7 @@ import SkillsPage from './pages/SkillsPage';
 import ServicePage from './pages/ServicePage';
 import ResumePage from './pages/ResumePage';
 import ErrorPage from './pages/ErrorPage';
+//import App from '../src/App';
 
 
 // Création de la racine de rendu ReactDOM
@@ -21,7 +22,7 @@ root.render(
     <Router>
       <Routes>
      {/* Définition des différentes routes */}
-        <Route path='/' element = {<Home />}/>   
+     <Route path='/' element = {<Home />} /> 
         <Route path='/Home' element = {<Home />}/>
         <Route path='/About' element = {<About />}/>
         <Route path='/ContactPage' element = {<ContactPage />}/>
@@ -29,6 +30,7 @@ root.render(
         <Route path='/SkillsPage' element = {<SkillsPage />}/>
         <Route path='/ServicePage' element = {<ServicePage />}/>
         <Route path='/ResumePage' element = {<ResumePage />}/>
+        <Route path='/*' element = {<ErrorPage />}/> 
         <Route path='/*' element = {<ErrorPage />}/> 
       </Routes>
     </Router>
@@ -39,3 +41,17 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 ;
+
+/*
+
+<Route path='/' element = {<App />} /> 
+        <Route path='/Home' element = {<Home />}/>
+        <Route path='/About' element = {<About />}/>
+        <Route path='/ContactPage' element = {<ContactPage />}/>
+        <Route path='/ProjectPage' element = {<ProjectPage />}/>
+        <Route path='/SkillsPage' element = {<SkillsPage />}/>
+        <Route path='/ServicePage' element = {<ServicePage />}/>
+        <Route path='/ResumePage' element = {<ResumePage />}/>
+        <Route path='/*' element = {<ErrorPage />}/> 
+
+        */

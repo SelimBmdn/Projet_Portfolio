@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/components/Header.css';
+import PhotoProfil from '../assets/PhotoProfile.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin , faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -27,6 +28,11 @@ function Header() {
         </div>
         <div className='All_name'>Selim Boumedien</div>
       </h1>
+      
+    <div className='profil_picture'>
+      <img src={PhotoProfil} alt='' />
+    </div>
+
       {/* Inclusion du composant Navbar */}
       <Navbar />
 

@@ -11,7 +11,7 @@ export default function ResumePage() {
 			<Header />
 
             {/* Inclusion du composant Footer */}
-            <Footer />
+           <Footer />
         </div>
 	
 	)
