@@ -18,7 +18,9 @@ export default function About() {
 
                     <h3>Je suis Devellopeur FrontEnd</h3>
 
-                    <p>"Bonjour ! Je suis un développeur front-end junior avec une expertise solide en HTML, CSS et JavaScript, je transforme des concepts et des maquettes en sites web attrayants et fonctionnels. Je suis spécialisé dans l'utilisation de frameworks tels que React, Angular et Vue.js pour créer des applications web réactives et dynamiques. Je suis également attentif à la conception responsive et à l'accessibilité, afin de m'assurer que mes sites s'adaptent à tous les appareils et sont accessibles à tous les utilisateurs ."</p>
+                    <p>"Bonjour ! Je suis un développeur front-end junior avec une expertise solide en HTML, CSS et JavaScript, je transforme des concepts et des maquettes en sites web attrayants et fonctionnels. Je suis spécialisé dans l'utilisation de frameworks tels que React, Angular et Vue.js pour créer des applications web réactives et dynamiques. Je suis également attentif à la conception responsive et à l'accessibilité, afin de m'assurer que mes sites s'adaptent à tous les appareils et sont accessibles à tous les utilisateurs . Je suis passionné de sport et plus particulierement de basket-ball , un sport complet qui m'a permis d'acquerir des compétences en travail d'équipe, en comunication et en perséverence . Si vous êtes à la recherche d'un développeur web junior motivé et passionné, je serais ravi de discuter de la manière dont je pourrais apporter une valeur ajoutée à votre équipe.
+
+N'hésitez pas à me contacter pour discuter de vos besoins en développement web ou pour simplement échanger ."</p>
 
                     <button className='download_cv'>
                         Telecherger mon CV

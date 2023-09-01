@@ -66,7 +66,7 @@ function SkillsPage() {
 
                     <div className='prc_and_ligneNODEJS'>
                         <div className='lg_and_prc'>
-                            <div className='lg'>NODE JS</div>
+                            <div className='lg'>NODE JS + Express</div>
                             <div className='prc'>60%</div>
                         </div>
                         <div className='ligne'>ligne</div>
